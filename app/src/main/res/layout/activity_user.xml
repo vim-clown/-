@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".User">
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="125dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="619dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="508dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtdept"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/department"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/email"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtphone"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/phone"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtgrossal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/gross_salary"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtdeductions"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/deductions"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtnetsalary"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/net_salary"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="125dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/logout"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtxtempid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/employee_id"
+            android:inputType="number"
+            android:outlineAmbientShadowColor="@color/white"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

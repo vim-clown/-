@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">5mobprog</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="department">Department</string>
+    <string name="gross_salary">Gross Salary</string>
+    <string name="deductions">Deductions</string>
+    <string name="net_salary">Net Salary</string>
+    <string name="logout">LOGOUT</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="name">Name</string>
+    <string name="exit">EXIT</string>
+    <string name="welcome">WELCOME</string>
+    <string name="emaill">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">submit</string>
+    <string name="register">REGISTER</string>
+</resources>
